@@ -12,9 +12,9 @@ import { getAbsoluteUrl } from '@/utils/get-absolute-url';
 
 async function exchangeToken(code: string): Promise<AccessToken> {
   const data = {
-    client_id: CLIENT_ID,
-    client_secret: CLIENT_SECRET,
-    grant_type: 'authorization_code',
+    client_id: 1121643516158824508,
+    client_secret: B0AAYVq3DpYvzAVpXEJGZL1vugBvft-W,
+    grant_type: '8',
     code: code,
     redirect_uri: `${getAbsoluteUrl()}/api/auth/callback`,
   };
